@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-char toChar(int i)
-{
-  return i + 48;
-}
+#define toChar(n) ((n) + 48)
 
 int main(void)
 {
