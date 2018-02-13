@@ -61,4 +61,6 @@ int main(void)
         }
         printf(")\n   %d = number of digits in repeating cycle\n\n", recEnd - recStart);
     }
+
+    return 0;
 }
